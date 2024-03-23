@@ -1,5 +1,6 @@
 export default tempData = [
   {
+    id: 1,
     name: "Plan a trip",
     color: "#24A6D9",
     todos: [
@@ -22,6 +23,7 @@ export default tempData = [
     ],
   },
   {
+    id: 2,
     name: "GYM",
     color: "#8022D9",
     todos: [
@@ -35,7 +37,7 @@ export default tempData = [
       },
       {
         title: "Push Day",
-        completed: true,
+        completed: false,
       },
       {
         title: "Pull Day",
@@ -44,12 +46,13 @@ export default tempData = [
     ],
   },
   {
+    id: 3,
     name: "Birthday Party",
     color: "#5862E0",
     todos: [
       {
         title: "Balloons",
-        completed: false,
+        completed: true,
       },
       {
         title: "Cake",
